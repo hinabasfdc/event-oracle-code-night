@@ -9,7 +9,7 @@ Slack の Agent コンテナでユーザーのメッセージを受け取り、O
 sequenceDiagram
     participant U as ユーザー
     participant S as Slack
-    participant B as Bot (app.py)
+    participant B as Bot (slack_ai_assistant.py)
     participant AF as Agent Factory
 
     Note over B,AF: 起動時
