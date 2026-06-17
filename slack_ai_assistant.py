@@ -56,7 +56,7 @@ app = App(token=os.environ["SLACK_BOT_TOKEN"])
 # =============================================================================
 # Agent Factory 接続設定
 # AF_AGENT_URL にはホスト・Agent種類・Agent IDを含む完全な URL を指定する
-# 例: https://147.224.204.100:8080/agentFactory/v1/knowledge/run/AISTUDIO
+# 例: https://xxx.xxx.xxx.xxx:8080/agentFactory/v1/knowledge/run/AISTUDIO
 # =============================================================================
 AF_AGENT_URL = os.environ.get("AF_AGENT_URL", "").rstrip("/")
 AF_USER = os.environ.get("AF_USER", "")
