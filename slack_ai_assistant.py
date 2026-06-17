@@ -72,7 +72,7 @@ thread_room_map: dict[str, str] = {}
 
 
 def _get_af_host() -> str:
-    """AF_AGENT_URL からホスト部分を抽出する (例: https://147.224.204.100:8080)"""
+    """AF_AGENT_URL からホスト部分を抽出する (例: https://xxx.xxx.xxx.xxx:8080)"""
     from urllib.parse import urlparse
     parsed = urlparse(AF_AGENT_URL)
     return f"{parsed.scheme}://{parsed.netloc}"
